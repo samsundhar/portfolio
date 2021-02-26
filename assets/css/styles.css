@@ -404,8 +404,8 @@ img{
 .home__img{
   position: absolute;
   right: 0;
-  bottom: 0;
   width: 295px;
+  bottom: 35%;
 
 }
 
@@ -906,5 +906,6 @@ padding:0px;
   }
   .home__img{
     right: 10%;
+    bottom: 15%;
   }
 }
