@@ -44,7 +44,8 @@ html,body
 /*===== Fuente y tipografia =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
-  --big-font-size: 1.7rem;
+  --big-font-size: 2rem;
+  --home-font-size: 1.5rem;
   --big-font-size1: 15px;
   --big-font-size2: 30px;
   --h2-font-size: 1.25rem;
@@ -56,7 +57,7 @@ html,body
   :root{
     --big-font-size1: 30px;
     --big-font-size2: 40px;
-
+    --home-font-size: 3.5rem;
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
@@ -380,7 +381,7 @@ img{
 }
 .home__title-color{
   color:var(--text-black-300);
-  font-size: var(--big-font-size);
+  font-size: var(--home-font-size);
 }
 .home__title-color2{
   color: var(--first-color);
@@ -704,7 +705,7 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
+    width: 350px;
     bottom: 15%;
   }
 
