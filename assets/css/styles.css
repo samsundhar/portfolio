@@ -44,7 +44,7 @@ html,body
 /*===== Fuente y tipografia =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
-  --big-font-size: 2rem;
+  --big-font-size: 1.7rem;
   --big-font-size1: 15px;
   --big-font-size2: 30px;
   --h2-font-size: 1.25rem;
