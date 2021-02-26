@@ -14,6 +14,14 @@
   --font-semi: 600;
 }
 
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 
 
 
@@ -107,6 +115,7 @@
   left: 8%;
   top: 22%;
   animation: spin 15s linear infinite;
+  display:none;
 }
 .effect-4:before{
   content: "";
@@ -281,6 +290,7 @@ img{
 
 }
 @media screen and (max-width: 768px){
+
   .nav__menu{
     position: fixed;
     top: var(--header-height);
@@ -721,6 +731,10 @@ img{
   }
   .contact__container{
     justify-items: center;
+  }
+  .effect-4{
+    display:block;
+
   }
 }
 
