@@ -402,11 +402,10 @@ img{
   color: var(--first-color);
 }
 .home__img{
-  position: center;
-  right: 0;
-  bottom: 0;
-  width: 295px;
-  bottom: 75%;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 200px;
 
 }
 
@@ -708,7 +707,6 @@ img{
   .home__img{
     width: 350px;
     bottom: 15%;
-    position: absolute;
   }
 
   .about__container, .skills__container{
@@ -909,6 +907,5 @@ padding:0px;
   .home__img{
     right: 10%;
     bottom: 15%;
-    position: absolute;
   }
 }
