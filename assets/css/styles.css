@@ -670,6 +670,7 @@ opacity: 60%;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
+  /* position: absolute; */
 }
 .work__img img{
   transition: 1s;
@@ -677,6 +678,14 @@ opacity: 60%;
 }
 .work__img img:hover{
   transform: scale(1.1);
+}
+.work__img .text {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  /* height: 10%; */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*certificate*/
